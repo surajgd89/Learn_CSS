@@ -1,0 +1,26 @@
+/* p {
+    font-size: 16px;
+    background-color: yellow;
+    color: red;
+}
+
+.abc {
+    font-size: 24px;
+    font-weight: bold;
+    color: green;
+}
+
+#xyz {
+    font-size: 20px;
+    font-style: italic;
+    color: indigo;
+    background-color: tan;
+}
+
+.abc .suraj {
+    color: blue;
+} */
+
+* {
+    margin: 0;
+}

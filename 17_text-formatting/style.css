@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 20px;
+}
+
+.box {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    border: 1px solid #000;
+    width: 400px;
+    text-align: left;
+    text-align-last: left;
+    text-transform: initial;
+    text-indent: 50px;
+    letter-spacing: 1px;
+    /* word-spacing: 30px; */
+}

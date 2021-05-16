@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 20px;
+}
+
+.box1 {
+    border: 2px solid red;
+    background-color: rgb(247, 215, 215);
+    width: 50%;
+    float: left;
+}
+.box2 {
+    border: 2px solid green;
+    background-color: rgb(208, 252, 204);
+    width: 50%;
+    float: right;
+}
+.box3 {
+    border: 2px solid blue;
+    background-color: rgb(199, 222, 253);
+    clear: both;
+}

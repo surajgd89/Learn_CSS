@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 20px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 30px;
+}
+
+p {
+    border: 1px solid #000;
+}
+
+ul {
+    list-style-type: none;
+    list-style-position: inside;
+    list-style-image: url(../bullet.png);
+}
+
+ol {
+    list-style-type: decimal-leading-zero;
+    list-style-position: inside;
+}

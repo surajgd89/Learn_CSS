@@ -1,0 +1,12 @@
+.box {
+    height: 500px;
+    width: 500px;
+    background-color: burlywood;
+    border: 2px solid red;
+
+    outline-width: 2px;
+    outline-style: dashed;
+    outline-color: green;
+
+    outline-offset: 4px;
+}

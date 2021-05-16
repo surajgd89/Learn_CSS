@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 20px;
+}
+.box {
+    width: 250px;
+    height: 250px;
+    border: 1px solid #000;
+    /* overflow: visible; */
+    overflow-x: auto;
+    overflow-y: auto;
+}

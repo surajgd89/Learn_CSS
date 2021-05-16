@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 20px;
+}
+
+.box {
+    font-size: 14px;
+    /* text-decoration-line: underline;
+    text-decoration-color: red;
+    text-decoration-style: dashed; */
+    text-decoration: underline red solid;
+}

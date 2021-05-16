@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    /* text-decoration: underline red solid 10px; */
+    text-decoration-line: overline;
+    text-decoration-color: blue;
+    text-decoration-style: solid;
+    text-underline-offset: 30px;
+}

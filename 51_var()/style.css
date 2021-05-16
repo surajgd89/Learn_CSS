@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+:root {
+    --subprimary-color: #000000;
+    --primary-color: #ff0000;
+    --content-font: 'Open Sans', sans-serif;
+    --p-font: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body {
+    font-family: var(--content-font);
+    font-size: 16px;
+}
+
+.main-box {
+    font-size: 1rem;
+}
+
+.box {
+    padding: 15px;
+    color: var(--subprimary-color);
+}
+
+p {
+    background-color: var(--primary-color);
+    font-family: var(--p-font);
+}

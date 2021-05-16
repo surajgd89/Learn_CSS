@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 20px;
+}
+
+.box {
+    border: 1px solid #000;
+    width: 500px;
+    /* writing-mode: horizontal-tb;
+    writing-mode: vertical-lr; */
+    writing-mode: vertical-rl;
+}

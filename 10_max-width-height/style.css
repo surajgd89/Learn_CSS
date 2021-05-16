@@ -1,0 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    border: 3px solid red;
+    max-width: 500px;
+    max-height: 500px;
+}

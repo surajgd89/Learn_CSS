@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 20px;
+}
+
+.box {
+    width: 500px;
+    border: 1px solid #000;
+    column-count: auto;
+    column-gap: 50px;
+    column-width: 200px;
+    /* column-rule-width: 2px;
+    column-rule-style: dashed;
+    column-rule-color: red; */
+    column-rule: 1px solid green;
+    text-align: justify;
+}

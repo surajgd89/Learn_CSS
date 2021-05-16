@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 20px;
+}
+
+.text {
+    font-size: 60px;
+    font-weight: bold;
+    /* text-shadow: 5px 5px 0 red; */
+    text-shadow: 4px 0 0 red, 8px 0 0 green;
+}

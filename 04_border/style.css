@@ -1,0 +1,22 @@
+.xyz {
+    padding: 20px;
+    background-color: khaki;
+    border-width: 2px;
+    border-style: dashed;
+    border-color: green;
+}
+
+.box {
+    height: 500px;
+    background-color: burlywood;
+    border-width: 2px;
+    border-style: unset;
+    border-color: crimson;
+
+    /* border: 5px solid red;
+    border-left-style:; */
+    /* border-bottom: none; */
+    /* border-top: 5px solid red;
+    border-right: 10px solid green;
+    border-bottom: 20px solid blue; */
+}

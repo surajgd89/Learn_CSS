@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.box {
+    width: 1000px;
+    height: 600px;
+    border: 1px solid #000;
+    background: url(../salman2.jpeg) top left;
+    background-repeat: no-repeat;
+    background-size: 20%;
+}
