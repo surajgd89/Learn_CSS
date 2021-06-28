@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    padding: 20px;
+}
+
+.main-box {
+    width: 200px;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: inline-flex;
+    margin: 20px;
+    text-align: center;
+    perspective: 1000px;
+    perspective-origin: center center;
+    transform-style: preserve-3d;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transform: none;
+    transition: transform 1s;
+    transform-origin: center center;
+}
+
+.box.rotateX:hover {
+    transform: rotateX(90deg);
+}
+
+.box.rotateY:hover {
+    transform: rotateY(180deg);
+}
+
+.box.rotateZ:hover {
+    transform: rotateZ(180deg);
+}
+
+.box.rotate3d:hover {
+    transform: rotate3d(1, 1, 1, 180deg);
+}
+
+.box.translateX:hover {
+    transform: translateX(30px);
+}
+
+.box.translateY:hover {
+    transform: translateY(30px);
+}
+
+.box.translateZ:hover {
+    transform: translateZ(100px);
+}
+
+.box.translate3d:hover {
+    transform: translate3d(30px, 30px, 200px);
+}
+
+.box.scaleX:hover {
+    transform: scaleX(2);
+}
+
+.box.scaleY:hover {
+    transform: scaleY(2);
+}
+
+/* .box.scaleZ:hover {
+    transform: scaleZ(0);
+} */
+
+.box.scale3d:hover {
+    transform: scale3d(2, 2, 0);
+}
+
+/* .box.matrix:hover {
+
+} */

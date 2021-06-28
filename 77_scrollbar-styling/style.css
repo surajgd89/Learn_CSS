@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    padding: 20px;
+    text-align: justify;
+}
+
+.wrapper {
+    width: 800px;
+    height: 800px;
+    overflow: auto;
+}
+
+/* support only chrome, safari, opera */
+.wrapper::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+.wrapper::-webkit-scrollbar-thumb {
+    background: red;
+    border-radius: 20px;
+}
+
+.wrapper::-webkit-scrollbar-track {
+    background: green;
+    border-radius: 20px;
+}
+
+.wrapper::-webkit-scrollbar-corner {
+    background: blue;
+}

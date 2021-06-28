@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap');
+@import url('fontawesome-free-5.15.3-web/css/all.min.css');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-snap-type: y mandatory;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+section {
+    height: 100vh;
+    scroll-snap-align: start;
+    padding: 25px;
+}
+
+h1 {
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+}
+p {
+    color: #fff;
+    font-size: 16px;
+    text-align: justify;
+    margin-top: 20px;
+}
+
+#Home {
+    background-color: red;
+}
+#About {
+    background-color: green;
+}
+#Services {
+    background-color: blue;
+}
+#Products {
+    background-color: purple;
+}
+#Contact {
+    background-color: yellowgreen;
+}

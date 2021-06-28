@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+::after,
+::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  padding: 20px;
+}
+
+/* .list1 li:first-child {
+    color: red;
+} */
+/* 
+.list1 li:last-child {
+    color: red;
+} */
+/* .list1 li:nth-child(2) {
+    color: red;
+} */
+/* .list2 li:nth-last-child(5) {
+    color: red;
+} */
+/* .list1 li:nth-child(2n + 1) {
+    color: red;
+} */
+/* p:nth-of-type(2) {
+    color: red;
+} */
+/* div:nth-last-of-type(3) {
+    color: red;
+} */
+/* .list1 li:only-child {
+    color: red;
+} */
+/* .list1 li:only-of-type {
+    color: red;
+} */
+/* div:empty {
+    border: 1px solid #000;
+} */
+/* .list2 li:not(:first-child) {
+    color: red;
+} */
+/* p:lang(fr) {
+    color: red;
+} */
+/* a {
+    color: red;
+} */
+/* a:link {
+    color: red;
+} */
+/* a:hover {
+    color: green;
+} */
+/* a:visited {
+    color: yellow;
+} */
+/* a:active {
+    color: purple;
+} */
+/* div:target {
+    color: purple;
+    background: yellow;
+    display: block;
+} */
+/* select:focus {
+    background: yellow;
+} */
+/* :in-range {
+    box-shadow: 2px 2px 2px red;
+} */
+/* :out-of-range {
+    box-shadow: 2px 2px 2px red;
+} */
+/* input:read-write {
+    background: #ccc;
+} */
+/* input:invalid {
+    border: 1px solid red;
+}
+
+input:valid {
+    border: 1px solid green;
+} */
+/* 
+input:default {
+    box-shadow: 2px 2px 2px red;
+} */
+.wrap-div {
+  --primary-color: red;
+}
+
+.wrap-div p {
+  color: var(--primary-color);
+}
+
+p {
+  color: var(--primary-color);
+}
+/*# sourceMappingURL=style.css.map */

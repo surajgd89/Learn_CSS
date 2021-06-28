@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    background-color: #eee;
+    padding: 20px;
+}
+
+a {
+    color: #000;
+}
+
+a[title] {
+    color: red;
+}
+
+a[target='_blank'] {
+    color: red;
+}
+
+a[title^='Go'] {
+    color: red;
+}
+
+a[title|='A'] {
+    color: red;
+}
+
+a[title$='Page'] {
+    color: red;
+}
+
+a[title*='ome'] {
+    color: red;
+}
+
+a[title~='Page'] {
+    color: red;
+}

@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--content-font);
+    font-size: 16px;
+    padding: 20px;
+}
+
+input {
+    width: 200px;
+    /* transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease; */
+    transition: all 2s ease 4s;
+}
+
+input:focus {
+    width: 1000px;
+}

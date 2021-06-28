@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    padding: 20px;
+}
+
+.main-box {
+    width: 200px;
+    height: 200px;
+    background-color: gray;
+    display: inline-flex;
+    margin: 20px;
+    text-align: center;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 1s;
+    transform: none;
+}
+
+.box.rotate:hover {
+    transform: rotate(30deg);
+}
+.box.skewX:hover {
+    transform: skewX(30deg);
+}
+.box.skewY:hover {
+    transform: skewY(30deg);
+}
+.box.skew:hover {
+    transform: skew(30deg, 30deg);
+}
+.box.translateX:hover {
+    transform: translateX(30px);
+}
+.box.translateY:hover {
+    transform: translateY(30px);
+}
+.box.translate:hover {
+    transform: translate(30px, 30px);
+}
+.box.scaleX:hover {
+    transform: scaleX(1.5);
+}
+.box.scaleY:hover {
+    transform: scaleY(1.5);
+}
+.box.scale:hover {
+    transform: scale(1.5);
+}
+
+/* .box.matrix:hover {
+
+} */

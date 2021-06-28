@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    padding: 20px;
+}
+
+.container {
+    height: 600px;
+    width: 600px;
+    border: 2px solid red;
+    background: url(../salman.jpeg) no-repeat center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner {
+    height: 300px;
+    width: 300px;
+    border: 2px solid #fff;
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: grayscale(100%);
+}
